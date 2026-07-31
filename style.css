@@ -191,7 +191,7 @@ main img {
     height: auto;
     display: flex;
     flex-direction: column;
-    
+
 
 }
 .timeline .horario {
@@ -374,7 +374,7 @@ label .grupo-opciones {
     font-size: 1.3rem;
     padding: 40px 0 40px 0 ;
     background-color: var(--color-principal);
-  
+
 
 }
 .information-bloque {
@@ -405,7 +405,7 @@ label .grupo-opciones {
     padding: 0 40px;
     margin: 10px 0 20PX 0;
 }
- 
+
 .boton {
     border: 1px solid var(--color-principal);
     background-color: var(--color-secundario);
@@ -417,14 +417,22 @@ label .grupo-opciones {
     border-radius: 50PX;
 
  }
- .boton:hover {
-     color: var(--color-secundario);
-     background-color: var(--color-principal);
-     border: 1px solid var(--color-secundario);
-     padding: 10px 30PX;
-     text-align: center;
-     text-decoration: none;
- }
+
+/* El :hover solo se activa en dispositivos con mouse real (desktop).
+   Así en celular/tablet (touch) el primer toque va directo al click,
+   en vez de quedar "atrapado" en el estado hover (lo que obligaba a
+   tocar dos veces para que el botón funcione). */
+@media (hover: hover) and (pointer: fine) {
+    .boton:hover {
+        color: var(--color-secundario);
+        background-color: var(--color-principal);
+        border: 1px solid var(--color-secundario);
+        padding: 10px 30PX;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
 footer {
     width: 100%;
     height: auto;
@@ -441,7 +449,7 @@ footer .contenido{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    
+
 }
 footer img {
     width: 60px;
@@ -530,19 +538,19 @@ footer img {
     }
     .information {
         padding: 10px 0 10px 0 ;
-        
+
     }
     .information-bloque {
         width: 90%;
         text-align: center;
         padding: 0px 0 20px 0;
         color: var(--color-terciario);
-       
+
     }
 
 .timeline .iconos {
     flex-direction: column;
-    
+
 }
 .timeline p {
     font-size: 1.3rem;
@@ -551,7 +559,7 @@ footer img {
 .rsvp {
     height: auto;
     padding: 64px 0;
-   
+
 }
     .information-bloque p {
         max-width: 260px;
@@ -564,7 +572,7 @@ footer img {
     .timing img{
         max-width: 360PX;
     }
-   
+
    .fotos {
         max-width:100%;
         display: flex;
@@ -574,6 +582,6 @@ footer img {
    .fotos img {
        width: 100%;
    }
-    
+
 
 }
