@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPRESS PLUS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.16/mediaelementplayer.min.css" />
+
+</head>
+<body>
+    <header>
+       <div class="novios">
+       </div>
+    </header>
+    <h2  data-aos="fade-up" class="title">Faltan:</h2>
+    <div class="contador">
+        <div class="bloque">
+          <div data-aos="fade-up" id="dias" class="numero"></div>
+          <div data-aos="fade-up" class="etiqueta">Días</div>
+        </div>
+    
+        <div class="bloque">
+          <div data-aos="fade-up" id="horas" class="numero"></div>
+          <div data-aos="fade-up" class="etiqueta">horas</div>
+        </div>
+    
+        <div class="bloque">
+          <div data-aos="fade-up" id="minutos" class="numero"></div>
+          <div data-aos="fade-up" class="etiqueta">minutos</div>
+        </div>
+    
+        <div class="bloque">
+          <div data-aos="fade-up" id="segundos" class="numero"></div>
+          <div data-aos="fade-up" class="etiqueta">segundos</div>
+        </div>
+    </div>
+<!--
+      <H2 id="mensaje" class="mensaje-final title" style="display: none;">LLEGÓ EL DÍA</H2>
+
+-->
+
+  <main>
+    <p  data-aos="fade-up" >Que todas las noches sean noches de boda</p><br>
+    <img  data-aos="fade-up"  class="fecha" src="./img-editables/fecha.png" alt="">
+    <div class="information">
+
+ 
+      <div  class="information-bloque">
+        <img data-aos="fade-up" src="./figuras/copas.png" alt="">
+        <h3 data-aos="fade-up">Civil y fiesta</h3>
+        <p data-aos="fade-up">18:00 hs - Eme Multiespacio <br> Concordia-Entre Ríos.</p>
+        <a  data-aos="fade-up" class="boton" target="_blank" href="https://www.google.com/maps/dir//EME+Multiespacio,+Salto+Uruguayo+1600,+E3200+GBR,+Entre+R%C3%ADos/@-31.379102,-57.9906619,17z/data=!4m17!1m7!3m6!1s0x95adc2b905863501:0x62e1def5293dd074!2sEME+Multiespacio!8m2!3d-31.379102!4d-57.988087!16s%2Fg%2F11b6v52gcx!4m8!1m0!1m5!1m1!1s0x95adc2b905863501:0x62e1def5293dd074!2m2!1d-57.988087!2d-31.379102!3e0?entry=ttu&g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D">Cómo llegar</a>
+      </div>
+
+    </div>
+  </main>
+  <div data-aos="fade-in" class="fotos">
+    <img src="./img-editables/1.png" alt="">
+  </div>
+  
+
+
+
+  <div class="timeline">
+    
+
+    <div class="iconos">
+        <div  class="iconos-block">
+            <img data-aos="fade-up"  src="./figuras/tulugar.png" alt="icono">
+            <p class="horario" data-aos="fade-up" > 18:00 Hs</p>
+            <p data-aos="fade-up" >Toma tu lugar</p>
+        </div>
+        <div   class="iconos-block">
+            <img data-aos="fade-up"  src="./figuras/anillos.png" alt="icono">
+            <p class="horario" data-aos="fade-up" >18:30 Hs</p>
+            <p data-aos="fade-up" >Ceremonia</p>
+        </div>
+        <div  class="iconos-block">
+            <img data-aos="fade-up"  src="./figuras/copas.png" alt="icono">
+            <p class="horario" data-aos="fade-up">19:30 Hs</p>
+            <p data-aos="fade-up">Recepción</p>
+        </div>
+        <div  class="iconos-block">
+            <img data-aos="fade-up" src="./figuras/cena.png" alt="icono">
+            <p class="horario" data-aos="fade-up">22:30 Hs</p>
+            <p data-aos="fade-up">1er plato</p>
+        </div>
+        <div  class="iconos-block">
+            <img data-aos="fade-up"   src="./figuras/fiesta.png" alt="icono">
+            <p class="horario" data-aos="fade-up"  >00:00 Hs</p>
+            <p data-aos="fade-up"  >Fiesta</p>
+        </div>
+         <div  class="iconos-block">
+            <img data-aos="fade-up"   src="./figuras/vueltaacasa.png" alt="icono">
+            <p class="horario" data-aos="fade-up"  >05:00 Hs</p>
+            <p data-aos="fade-up"  >Vuelta a casa</p>
+        </div>
+    </div>
+</div>
+
+
+  <div  data-aos="fade-in" class="fotos">
+    <img src="./img-editables/3.png" alt="">
+  </div>   
+  
+<main>
+  <div class="information">
+  <div   class="information-bloque">
+    <img data-aos="fade-up" src="./figuras/tulugar.png" alt="">
+    <h3 data-aos="fade-up" >¿Podemos llevar a los peques? </h3>
+    <p data-aos="fade-up">Saben que amamos a los niños… ¡pero esta vez planeamos una celebración pensada para adultos! Queremos que todos puedan relajarse, brindar y bailar sin interrupciones. Gracias por entender.</p>
+  </div>
+
+
+</div>  
+</main>
+
+<div data-aos="fade-in"  class="fotos">
+  <img src="./img-editables/2.png" alt="">
+</div> 
+<main>
+  <div class="information">
+  <div  class="information-bloque">
+    <h3 data-aos="fade-up" >Dress code - Elegante</h3>
+    <p data-aos="fade-up" >Queremos que te sientas cómodo y canchero, pero también que se note que es un día especial. <br>  Las fotos van a quedar para siempre, así que: elegante y con onda. <br>
+Nos encantaría que las mujeres luzcan colores alegres y cálidos para celebrar con alegría, evitando el negro. <br>
+El blanco está reservado para la novia.
+Hombres si pueden usar negro, azul, gris, etc</p>    
+  </div>
+
+
+</div>  
+</main>
+<div  class="information rsvp">
+  
+  <div class="forms">
+    
+ <form name="asistenciaform" method="POST" action="https://script.google.com/macros/s/AKfycbwquN_zat0mXNIAa2PYMz5GZyeBYqwf1wKNtELRCBf6Z41oLtEZi8gh9p2lffbX7VFcHg/exec" class="formulario">
+
+  <label data-aos="fade-up" class="formtitle">¿Venís?</label>
+  <div class="radio-group">
+    <label class="radio-option">
+      <input type="radio" name="ASISTENCIA" value="sí" required />
+      <span>Sí</span>
+    </label>
+    <label class="radio-option">
+      <input type="radio" name="ASISTENCIA" value="no" />
+      <span>No</span>
+    </label>
+  </div>
+
+  <input type="text" name="NOMBRE" placeholder="Nombre" required />
+  <input type="text" name="APELLIDO" placeholder="Apellido" required />
+
+  <select name="DIETA" required>
+    <option value="" disabled selected>Dieta</option>
+    <option value="Nada">Nada</option>
+    <option value="Vegano">Vegano</option>
+    <option value="Vegetariano">Vegetariano</option>
+    <option value="Celíaco">Celíaco</option>
+  </select>
+
+  <textarea name="MENSAJE" placeholder="Dejale un mensaje a los novios 🤍"></textarea>
+
+  <button type="submit" class="boton">Enviar</button>
+</form>
+
+    <p data-aos="fade-up">Recordá completar un formulario por persona. <br> Hacelo antes del 01 de octubre.</p>
+  </div>
+</div>
+<main>
+
+
+  <div  class="information-bloque">
+    <br>
+    <img  data-aos="fade-up"  src="./figuras/giftcard.png" alt="">
+    <h3  data-aos="fade-up" >Mesa de regalos</h3>
+    <p  data-aos="fade-up" >El mejor regalo es que estés con nosotros <br>
+Pero si querés ayudarnos con nuestra soñada luna de miel... 
+</p>
+    <div class="botones">
+      <a  data-aos="fade-in"  class="boton" onclick="copyToClipboard('0170068840000036526464')" >CBU EN PESOS</a>
+      <a  data-aos="fade-in"  class="boton" onclick="copyToClipboard('JAIAYNACHO.BODA')">ALIAS EN PESOS</a>
+     <a  data-aos="fade-in"  class="boton" onclick="copyToClipboard('0170068844000032203828')" >CBU EN USD</a>
+      <a  data-aos="fade-in"  class="boton" onclick="copyToClipboard('JAIAYNACHO.BODAUSD')">ALIAS EN USD</a> 
+     
+    </div>
+     <p  data-aos="fade-up" >Hace clic para copiar los datos. <br> Titular: Gomez Ignacio</p>
+  </div>
+
+</div>  
+</main>
+<div   class="fotos">
+  <img data-aos="fade-up" src="./img-editables/5.png" alt="">
+</div> 
+
+</div>
+<div class="audiodiv">
+ 
+  <audio id="myAudio" preload="auto">
+  <source src="MARIPOSA-ABELPINTOS.mp3" type="audio/mpeg">
+</audio>
+  <div id="playPauseBtn" class="play">
+      <img src="./figuras/notamusical.png" alt="Icono de música">
+  </div>
+</div>
+    <footer>
+        <div class="contenido">
+         <div>
+           <img src="./figuras/logosiquiero.png" alt="icono si quiero">
+             <p>Hecho con &hearts; <br>
+             &#169 <b>Si,quiero!</b> - invitaciones inteligentes.
+             <br> Todos los derechos reservados.</p>
+         </div>
+            
+         <div class="contenido-list">
+             <ul>
+                 <li><a target="_blank" href="https://www.instagram.com/siquiero.arg/"><i class="bi bi-instagram"></i></a></li>
+                 <li><a target="_blank" href="https://www.facebook.com/Invitaciones-web-112187784608681"><i class="bi bi-facebook"></i></a></li>
+                 <li><a target="_blank" href="mailto:siquiero.invitaciones@gmail.com"><i class="bi bi-envelope"></i></a></li>
+               </ul>
+         </div>
+        </div>
+        
+     </footer>
+           <script src="form.js"></script>
+
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const audio = document.getElementById("myAudio");
+
+    // Escucha el primer scroll
+    const playOnScroll = () => {
+      audio.play().catch(e => {
+        console.warn("El navegador bloqueó la reproducción automática", e);
+      });
+      document.removeEventListener("scroll", playOnScroll); // Se ejecuta solo una vez
+    };
+
+    document.addEventListener("scroll", playOnScroll);
+  });
+</script>
+      <script src="script.js"></script>
+      <script src="reproductor.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
+    <script>
+
+    function copyToClipboard(text) {
+       const tempInput = document.createElement("input");
+       document.body.appendChild(tempInput);
+       tempInput.value = text;
+       tempInput.select();
+       document.execCommand("copy");
+       document.body.removeChild(tempInput);
+       alert(`Copiaste los datos de cuenta "${text}" a tu portapapeles`);
+     }
+   </script>
+<script>
+    // Espera a que se cargue el DOM
+    document.addEventListener("DOMContentLoaded", function () {
+      const scrollToTopBtn = document.querySelector("#scroll-to-top");
+
+      scrollToTopBtn.addEventListener("click", () => {
+        // Comprueba la compatibilidad con "scroll-behavior"
+        if ("scrollBehavior" in document.documentElement.style) {
+          // Usa el desplazamiento suave del navegador
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          });
+        } else {
+          // Desplazamiento suave de respaldo para navegadores antiguos
+          scrollToTop(0, 600);
+        }
+      });
+
+      // Función de desplazamiento suave de respaldo para navegadores antiguos
+      function scrollToTop(to, duration) {
+        const start = window.scrollY || document.documentElement.scrollTop;
+        const change = to - start;
+        const increment = 20;
+        let currentTime = 0;
+
+        const animateScroll = function () {
+          currentTime += increment;
+          const val = Math.easeInOutQuad(currentTime, start, change, duration);
+          window.scrollTo(0, val);
+          if (currentTime < duration) {
+            requestAnimationFrame(animateScroll);
+          }
+        };
+
+        Math.easeInOutQuad = function (t, b, c, d) {
+          t /= d / 2;
+          if (t < 1) return c / 2 * t * t + b;
+          t--;
+          return -c / 2 * (t * (t - 2) - 1) + b;
+        };
+
+        requestAnimationFrame(animateScroll);
+      }
+    });
+  </script>
+</body>
+</html>
