@@ -66,6 +66,7 @@ header {
 .title {
     color: var(--color-secundario);
     text-align: center;
+    font-size: 2REM;
 }
 
 
@@ -394,9 +395,9 @@ label .grupo-opciones {
 
  h3 {
     font-family: var(--font-principal);
-    padding: 0;
+    padding: 6PX 2PX;
     margin: 10px 0;
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: var(--color-secundario);
 }
 
